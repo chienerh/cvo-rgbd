@@ -1,0 +1,6 @@
+translational_error.rmse 0.023138 m/s
+rotational_error.rmse 1.052251 deg
+translational_error.rmse 0.023594 m/s
+rotational_error.rmse 1.076446 deg
+translational_error.rmse 0.023503 m/s
+rotational_error.rmse 1.075981 deg

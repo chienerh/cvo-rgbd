@@ -1,0 +1,1912 @@
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.0, s_ell: 800
+translational_error.rmse 0.281096 m/s
+rotational_error.rmse 19.440979 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.0, s_ell: 900
+translational_error.rmse 0.235249 m/s
+rotational_error.rmse 15.822865 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.0, s_ell: 1000
+translational_error.rmse 0.261361 m/s
+rotational_error.rmse 14.768432 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.0, s_ell: 1100
+translational_error.rmse 0.248893 m/s
+rotational_error.rmse 8.478691 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.0, s_ell: 1200
+translational_error.rmse 0.083556 m/s
+rotational_error.rmse 3.933324 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.0, s_ell: 1300
+translational_error.rmse 0.046184 m/s
+rotational_error.rmse 2.755617 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.0, s_ell: 1400
+translational_error.rmse 0.033901 m/s
+rotational_error.rmse 1.606958 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.0, s_ell: 1500
+translational_error.rmse 0.027969 m/s
+rotational_error.rmse 1.339235 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.0, s_ell: 1600
+translational_error.rmse 0.024945 m/s
+rotational_error.rmse 1.180910 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.0, s_ell: 1700
+translational_error.rmse 0.023416 m/s
+rotational_error.rmse 1.081008 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.0, s_ell: 1800
+translational_error.rmse 0.022564 m/s
+rotational_error.rmse 1.029318 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.0, s_ell: 1900
+translational_error.rmse 0.022532 m/s
+rotational_error.rmse 1.020266 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.0, s_ell: 2000
+translational_error.rmse 0.022123 m/s
+rotational_error.rmse 0.992481 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.0, s_ell: 2100
+translational_error.rmse 0.022026 m/s
+rotational_error.rmse 0.988950 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.0, s_ell: 2200
+translational_error.rmse 0.022233 m/s
+rotational_error.rmse 0.986610 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.0, s_ell: 2300
+translational_error.rmse 0.021853 m/s
+rotational_error.rmse 0.965717 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.0, s_ell: 2400
+translational_error.rmse 0.022018 m/s
+rotational_error.rmse 0.977623 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.0, s_ell: 2500
+translational_error.rmse 0.021749 m/s
+rotational_error.rmse 0.962571 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.0, s_ell: 2600
+translational_error.rmse 0.021756 m/s
+rotational_error.rmse 0.962514 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.0, s_ell: 2700
+translational_error.rmse 0.021822 m/s
+rotational_error.rmse 0.970888 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.0, s_ell: 2800
+translational_error.rmse 0.021922 m/s
+rotational_error.rmse 0.962141 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.0, s_ell: 2900
+translational_error.rmse 0.021864 m/s
+rotational_error.rmse 0.966994 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.0, s_ell: 3000
+translational_error.rmse 0.021657 m/s
+rotational_error.rmse 0.964309 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.2, s_ell: 800
+translational_error.rmse 0.025814 m/s
+rotational_error.rmse 1.127981 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.2, s_ell: 900
+translational_error.rmse 0.025153 m/s
+rotational_error.rmse 1.156314 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.2, s_ell: 1000
+translational_error.rmse 0.024832 m/s
+rotational_error.rmse 1.154885 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.2, s_ell: 1100
+translational_error.rmse 0.024625 m/s
+rotational_error.rmse 1.155421 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.2, s_ell: 1200
+translational_error.rmse 0.024611 m/s
+rotational_error.rmse 1.156821 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.2, s_ell: 1300
+translational_error.rmse 0.024371 m/s
+rotational_error.rmse 1.157120 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.2, s_ell: 1400
+translational_error.rmse 0.024492 m/s
+rotational_error.rmse 1.162871 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.2, s_ell: 1500
+translational_error.rmse 0.024531 m/s
+rotational_error.rmse 1.158894 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.2, s_ell: 1600
+translational_error.rmse 0.024619 m/s
+rotational_error.rmse 1.159917 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.2, s_ell: 1700
+translational_error.rmse 0.024634 m/s
+rotational_error.rmse 1.169066 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.2, s_ell: 1800
+translational_error.rmse 0.024524 m/s
+rotational_error.rmse 1.156470 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.2, s_ell: 1900
+translational_error.rmse 0.024630 m/s
+rotational_error.rmse 1.161852 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.2, s_ell: 2000
+translational_error.rmse 0.024625 m/s
+rotational_error.rmse 1.159111 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.2, s_ell: 2100
+translational_error.rmse 0.024439 m/s
+rotational_error.rmse 1.158141 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.2, s_ell: 2200
+translational_error.rmse 0.024585 m/s
+rotational_error.rmse 1.162631 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.2, s_ell: 2300
+translational_error.rmse 0.024475 m/s
+rotational_error.rmse 1.162671 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.2, s_ell: 2400
+translational_error.rmse 0.024609 m/s
+rotational_error.rmse 1.172060 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.2, s_ell: 2500
+translational_error.rmse 0.024716 m/s
+rotational_error.rmse 1.172122 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.2, s_ell: 2600
+translational_error.rmse 0.024529 m/s
+rotational_error.rmse 1.164347 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.2, s_ell: 2700
+translational_error.rmse 0.024740 m/s
+rotational_error.rmse 1.170507 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.2, s_ell: 2800
+translational_error.rmse 0.024907 m/s
+rotational_error.rmse 1.172938 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.2, s_ell: 2900
+translational_error.rmse 0.024926 m/s
+rotational_error.rmse 1.179586 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.2, s_ell: 3000
+translational_error.rmse 0.024856 m/s
+rotational_error.rmse 1.171365 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.4, s_ell: 800
+translational_error.rmse 0.024968 m/s
+rotational_error.rmse 1.183716 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.4, s_ell: 900
+translational_error.rmse 0.024807 m/s
+rotational_error.rmse 1.183811 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.4, s_ell: 1000
+translational_error.rmse 0.024615 m/s
+rotational_error.rmse 1.183961 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.4, s_ell: 1100
+translational_error.rmse 0.024627 m/s
+rotational_error.rmse 1.190472 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.4, s_ell: 1200
+translational_error.rmse 0.024815 m/s
+rotational_error.rmse 1.197015 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.4, s_ell: 1300
+translational_error.rmse 0.024789 m/s
+rotational_error.rmse 1.201714 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.4, s_ell: 1400
+translational_error.rmse 0.024676 m/s
+rotational_error.rmse 1.195635 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.4, s_ell: 1500
+translational_error.rmse 0.025103 m/s
+rotational_error.rmse 1.203127 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.4, s_ell: 1600
+translational_error.rmse 0.024661 m/s
+rotational_error.rmse 1.197110 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.4, s_ell: 1700
+translational_error.rmse 0.024699 m/s
+rotational_error.rmse 1.202190 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.4, s_ell: 1800
+translational_error.rmse 0.024857 m/s
+rotational_error.rmse 1.191362 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.4, s_ell: 1900
+translational_error.rmse 0.024670 m/s
+rotational_error.rmse 1.186361 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.4, s_ell: 2000
+translational_error.rmse 0.024472 m/s
+rotational_error.rmse 1.187510 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.4, s_ell: 2100
+translational_error.rmse 0.024778 m/s
+rotational_error.rmse 1.196436 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.4, s_ell: 2200
+translational_error.rmse 0.024752 m/s
+rotational_error.rmse 1.192203 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.4, s_ell: 2300
+translational_error.rmse 0.024638 m/s
+rotational_error.rmse 1.190268 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.4, s_ell: 2400
+translational_error.rmse 0.024781 m/s
+rotational_error.rmse 1.197492 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.4, s_ell: 2500
+translational_error.rmse 0.024690 m/s
+rotational_error.rmse 1.189975 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.4, s_ell: 2600
+translational_error.rmse 0.024791 m/s
+rotational_error.rmse 1.192075 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.4, s_ell: 2700
+translational_error.rmse 0.024950 m/s
+rotational_error.rmse 1.203221 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.4, s_ell: 2800
+translational_error.rmse 0.024714 m/s
+rotational_error.rmse 1.198322 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.4, s_ell: 2900
+translational_error.rmse 0.024874 m/s
+rotational_error.rmse 1.205091 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.4, s_ell: 3000
+translational_error.rmse 0.024617 m/s
+rotational_error.rmse 1.200610 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.6, s_ell: 800
+translational_error.rmse 0.024454 m/s
+rotational_error.rmse 1.193119 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.6, s_ell: 900
+translational_error.rmse 0.024257 m/s
+rotational_error.rmse 1.198588 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.6, s_ell: 1000
+translational_error.rmse 0.024303 m/s
+rotational_error.rmse 1.192633 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.6, s_ell: 1100
+translational_error.rmse 0.024191 m/s
+rotational_error.rmse 1.192089 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.6, s_ell: 1200
+translational_error.rmse 0.024289 m/s
+rotational_error.rmse 1.193778 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.6, s_ell: 1300
+translational_error.rmse 0.024501 m/s
+rotational_error.rmse 1.197753 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.6, s_ell: 1400
+translational_error.rmse 0.024312 m/s
+rotational_error.rmse 1.196309 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.6, s_ell: 1500
+translational_error.rmse 0.024265 m/s
+rotational_error.rmse 1.195324 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.6, s_ell: 1600
+translational_error.rmse 0.024340 m/s
+rotational_error.rmse 1.190050 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.6, s_ell: 1700
+translational_error.rmse 0.024373 m/s
+rotational_error.rmse 1.192188 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.6, s_ell: 1800
+translational_error.rmse 0.024305 m/s
+rotational_error.rmse 1.190781 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.6, s_ell: 1900
+translational_error.rmse 0.024339 m/s
+rotational_error.rmse 1.194704 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.6, s_ell: 2000
+translational_error.rmse 0.024278 m/s
+rotational_error.rmse 1.192378 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.6, s_ell: 2100
+translational_error.rmse 0.024496 m/s
+rotational_error.rmse 1.192095 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.6, s_ell: 2200
+translational_error.rmse 0.024559 m/s
+rotational_error.rmse 1.194242 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.6, s_ell: 2300
+translational_error.rmse 0.024413 m/s
+rotational_error.rmse 1.191044 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.6, s_ell: 2400
+translational_error.rmse 0.024406 m/s
+rotational_error.rmse 1.192605 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.6, s_ell: 2500
+translational_error.rmse 0.024459 m/s
+rotational_error.rmse 1.195652 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.6, s_ell: 2600
+translational_error.rmse 0.024576 m/s
+rotational_error.rmse 1.193795 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.6, s_ell: 2700
+translational_error.rmse 0.024396 m/s
+rotational_error.rmse 1.192325 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.6, s_ell: 2800
+translational_error.rmse 0.024548 m/s
+rotational_error.rmse 1.198138 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.6, s_ell: 2900
+translational_error.rmse 0.024559 m/s
+rotational_error.rmse 1.198761 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.6, s_ell: 3000
+translational_error.rmse 0.024391 m/s
+rotational_error.rmse 1.191855 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.8, s_ell: 800
+translational_error.rmse 0.024172 m/s
+rotational_error.rmse 1.195085 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.8, s_ell: 900
+translational_error.rmse 0.023967 m/s
+rotational_error.rmse 1.199640 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.8, s_ell: 1000
+translational_error.rmse 0.024151 m/s
+rotational_error.rmse 1.192326 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.8, s_ell: 1100
+translational_error.rmse 0.024206 m/s
+rotational_error.rmse 1.192538 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.8, s_ell: 1200
+translational_error.rmse 0.024007 m/s
+rotational_error.rmse 1.192259 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.8, s_ell: 1300
+translational_error.rmse 0.024190 m/s
+rotational_error.rmse 1.194257 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.8, s_ell: 1400
+translational_error.rmse 0.024158 m/s
+rotational_error.rmse 1.195629 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.8, s_ell: 1500
+translational_error.rmse 0.024084 m/s
+rotational_error.rmse 1.188797 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.8, s_ell: 1600
+translational_error.rmse 0.024256 m/s
+rotational_error.rmse 1.196736 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.8, s_ell: 1700
+translational_error.rmse 0.024216 m/s
+rotational_error.rmse 1.195381 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.8, s_ell: 1800
+translational_error.rmse 0.024175 m/s
+rotational_error.rmse 1.191554 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.8, s_ell: 1900
+translational_error.rmse 0.024523 m/s
+rotational_error.rmse 1.200147 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.8, s_ell: 2000
+translational_error.rmse 0.024197 m/s
+rotational_error.rmse 1.194933 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.8, s_ell: 2100
+translational_error.rmse 0.024266 m/s
+rotational_error.rmse 1.194779 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.8, s_ell: 2200
+translational_error.rmse 0.024329 m/s
+rotational_error.rmse 1.199314 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.8, s_ell: 2300
+translational_error.rmse 0.024409 m/s
+rotational_error.rmse 1.198264 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.8, s_ell: 2400
+translational_error.rmse 0.024234 m/s
+rotational_error.rmse 1.192228 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.8, s_ell: 2500
+translational_error.rmse 0.024450 m/s
+rotational_error.rmse 1.192889 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.8, s_ell: 2600
+translational_error.rmse 0.024393 m/s
+rotational_error.rmse 1.193521 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.8, s_ell: 2700
+translational_error.rmse 0.024354 m/s
+rotational_error.rmse 1.198089 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.8, s_ell: 2800
+translational_error.rmse 0.024292 m/s
+rotational_error.rmse 1.194229 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.8, s_ell: 2900
+translational_error.rmse 0.024341 m/s
+rotational_error.rmse 1.200187 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.8, s_ell: 3000
+translational_error.rmse 0.024288 m/s
+rotational_error.rmse 1.196581 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 2.0, s_ell: 800
+translational_error.rmse 0.024004 m/s
+rotational_error.rmse 1.185910 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 2.0, s_ell: 900
+translational_error.rmse 0.023969 m/s
+rotational_error.rmse 1.190444 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 2.0, s_ell: 1000
+translational_error.rmse 0.024080 m/s
+rotational_error.rmse 1.196011 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 2.0, s_ell: 1100
+translational_error.rmse 0.024038 m/s
+rotational_error.rmse 1.193499 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 2.0, s_ell: 1200
+translational_error.rmse 0.024115 m/s
+rotational_error.rmse 1.191953 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 2.0, s_ell: 1300
+translational_error.rmse 0.024054 m/s
+rotational_error.rmse 1.195768 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 2.0, s_ell: 1400
+translational_error.rmse 0.024167 m/s
+rotational_error.rmse 1.195549 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 2.0, s_ell: 1500
+translational_error.rmse 0.024185 m/s
+rotational_error.rmse 1.191187 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 2.0, s_ell: 1600
+translational_error.rmse 0.024199 m/s
+rotational_error.rmse 1.200673 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 2.0, s_ell: 1700
+translational_error.rmse 0.024192 m/s
+rotational_error.rmse 1.198805 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 2.0, s_ell: 1800
+translational_error.rmse 0.024136 m/s
+rotational_error.rmse 1.196399 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 2.0, s_ell: 1900
+translational_error.rmse 0.024176 m/s
+rotational_error.rmse 1.197132 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 2.0, s_ell: 2000
+translational_error.rmse 0.024350 m/s
+rotational_error.rmse 1.200666 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 2.0, s_ell: 2100
+translational_error.rmse 0.024332 m/s
+rotational_error.rmse 1.197959 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 2.0, s_ell: 2200
+translational_error.rmse 0.024163 m/s
+rotational_error.rmse 1.197246 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 2.0, s_ell: 2300
+translational_error.rmse 0.024263 m/s
+rotational_error.rmse 1.199595 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 2.0, s_ell: 2400
+translational_error.rmse 0.024105 m/s
+rotational_error.rmse 1.195103 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 2.0, s_ell: 2500
+translational_error.rmse 0.024133 m/s
+rotational_error.rmse 1.199480 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 2.0, s_ell: 2600
+translational_error.rmse 0.024313 m/s
+rotational_error.rmse 1.195734 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 2.0, s_ell: 2700
+translational_error.rmse 0.024249 m/s
+rotational_error.rmse 1.197905 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 2.0, s_ell: 2800
+translational_error.rmse 0.024195 m/s
+rotational_error.rmse 1.195639 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 2.0, s_ell: 2900
+translational_error.rmse 0.024275 m/s
+rotational_error.rmse 1.199894 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 2.0, s_ell: 3000
+translational_error.rmse 0.024297 m/s
+rotational_error.rmse 1.200888 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.0, s_ell: 800
+translational_error.rmse 0.430540 m/s
+rotational_error.rmse 49.623937 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.0, s_ell: 900
+translational_error.rmse 0.314340 m/s
+rotational_error.rmse 29.526239 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.0, s_ell: 1000
+translational_error.rmse 0.269000 m/s
+rotational_error.rmse 20.963015 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.0, s_ell: 1100
+translational_error.rmse 0.430698 m/s
+rotational_error.rmse 29.847506 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.0, s_ell: 1200
+translational_error.rmse 0.438497 m/s
+rotational_error.rmse 23.186573 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.0, s_ell: 1300
+translational_error.rmse 0.199040 m/s
+rotational_error.rmse 16.827351 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.0, s_ell: 1400
+translational_error.rmse 0.185654 m/s
+rotational_error.rmse 19.623528 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.0, s_ell: 1500
+translational_error.rmse 0.144737 m/s
+rotational_error.rmse 15.663649 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.0, s_ell: 1600
+translational_error.rmse 0.138059 m/s
+rotational_error.rmse 14.574676 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.0, s_ell: 1700
+translational_error.rmse 0.116772 m/s
+rotational_error.rmse 9.772300 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.0, s_ell: 1800
+translational_error.rmse 0.108583 m/s
+rotational_error.rmse 12.467111 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.0, s_ell: 1900
+translational_error.rmse 0.074344 m/s
+rotational_error.rmse 5.245589 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.0, s_ell: 2000
+translational_error.rmse 0.073760 m/s
+rotational_error.rmse 5.278574 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.0, s_ell: 2100
+translational_error.rmse 0.065213 m/s
+rotational_error.rmse 4.590081 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.0, s_ell: 2200
+translational_error.rmse 0.061911 m/s
+rotational_error.rmse 3.150997 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.0, s_ell: 2300
+translational_error.rmse 0.071270 m/s
+rotational_error.rmse 3.576077 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.0, s_ell: 2400
+translational_error.rmse 0.067488 m/s
+rotational_error.rmse 3.136261 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.0, s_ell: 2500
+translational_error.rmse 0.066183 m/s
+rotational_error.rmse 3.094331 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.0, s_ell: 2600
+translational_error.rmse 0.065971 m/s
+rotational_error.rmse 3.108426 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.0, s_ell: 2700
+translational_error.rmse 0.065447 m/s
+rotational_error.rmse 3.194926 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.0, s_ell: 2800
+translational_error.rmse 0.063515 m/s
+rotational_error.rmse 3.061267 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.0, s_ell: 2900
+translational_error.rmse 0.053069 m/s
+rotational_error.rmse 3.050809 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.0, s_ell: 3000
+translational_error.rmse 0.062506 m/s
+rotational_error.rmse 3.080406 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.2, s_ell: 800
+translational_error.rmse 0.050054 m/s
+rotational_error.rmse 2.597412 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.2, s_ell: 900
+translational_error.rmse 0.048758 m/s
+rotational_error.rmse 2.628683 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.2, s_ell: 1000
+translational_error.rmse 0.047888 m/s
+rotational_error.rmse 2.610015 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.2, s_ell: 1100
+translational_error.rmse 0.047320 m/s
+rotational_error.rmse 2.531996 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.2, s_ell: 1200
+translational_error.rmse 0.047380 m/s
+rotational_error.rmse 2.563346 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.2, s_ell: 1300
+translational_error.rmse 0.046831 m/s
+rotational_error.rmse 2.483831 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.2, s_ell: 1400
+translational_error.rmse 0.047584 m/s
+rotational_error.rmse 2.501694 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.2, s_ell: 1500
+translational_error.rmse 0.046946 m/s
+rotational_error.rmse 2.479968 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.2, s_ell: 1600
+translational_error.rmse 0.046720 m/s
+rotational_error.rmse 2.464635 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.2, s_ell: 1700
+translational_error.rmse 0.046508 m/s
+rotational_error.rmse 2.452728 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.2, s_ell: 1800
+translational_error.rmse 0.047311 m/s
+rotational_error.rmse 2.459937 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.2, s_ell: 1900
+translational_error.rmse 0.046671 m/s
+rotational_error.rmse 2.449285 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.2, s_ell: 2000
+translational_error.rmse 0.046097 m/s
+rotational_error.rmse 2.478785 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.2, s_ell: 2100
+translational_error.rmse 0.046655 m/s
+rotational_error.rmse 2.479946 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.2, s_ell: 2200
+translational_error.rmse 0.046813 m/s
+rotational_error.rmse 2.506485 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.2, s_ell: 2300
+translational_error.rmse 0.046512 m/s
+rotational_error.rmse 2.502251 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.2, s_ell: 2400
+translational_error.rmse 0.046597 m/s
+rotational_error.rmse 2.500721 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.2, s_ell: 2500
+translational_error.rmse 0.046681 m/s
+rotational_error.rmse 2.491875 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.2, s_ell: 2600
+translational_error.rmse 0.046486 m/s
+rotational_error.rmse 2.490040 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.2, s_ell: 2700
+translational_error.rmse 0.046903 m/s
+rotational_error.rmse 2.505646 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.2, s_ell: 2800
+translational_error.rmse 0.046986 m/s
+rotational_error.rmse 2.519983 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.2, s_ell: 2900
+translational_error.rmse 0.047332 m/s
+rotational_error.rmse 2.520715 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.2, s_ell: 3000
+translational_error.rmse 0.046899 m/s
+rotational_error.rmse 2.509677 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.4, s_ell: 800
+translational_error.rmse 0.049954 m/s
+rotational_error.rmse 2.729091 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.4, s_ell: 900
+translational_error.rmse 0.048405 m/s
+rotational_error.rmse 2.707112 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.4, s_ell: 1000
+translational_error.rmse 0.048637 m/s
+rotational_error.rmse 2.679773 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.4, s_ell: 1100
+translational_error.rmse 0.047469 m/s
+rotational_error.rmse 2.673809 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.4, s_ell: 1200
+translational_error.rmse 0.047676 m/s
+rotational_error.rmse 2.651013 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.4, s_ell: 1300
+translational_error.rmse 0.049484 m/s
+rotational_error.rmse 3.042220 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.4, s_ell: 1400
+translational_error.rmse 0.049673 m/s
+rotational_error.rmse 3.033929 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.4, s_ell: 1500
+translational_error.rmse 0.050043 m/s
+rotational_error.rmse 3.046139 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.4, s_ell: 1600
+translational_error.rmse 0.049824 m/s
+rotational_error.rmse 3.036171 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.4, s_ell: 1700
+translational_error.rmse 0.049390 m/s
+rotational_error.rmse 3.037812 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.4, s_ell: 1800
+translational_error.rmse 0.049171 m/s
+rotational_error.rmse 3.022452 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.4, s_ell: 1900
+translational_error.rmse 0.051391 m/s
+rotational_error.rmse 3.062470 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.4, s_ell: 2000
+translational_error.rmse 0.049652 m/s
+rotational_error.rmse 3.020286 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.4, s_ell: 2100
+translational_error.rmse 0.048726 m/s
+rotational_error.rmse 2.993244 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.4, s_ell: 2200
+translational_error.rmse 0.050418 m/s
+rotational_error.rmse 3.028770 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.4, s_ell: 2300
+translational_error.rmse 0.048261 m/s
+rotational_error.rmse 2.987838 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.4, s_ell: 2400
+translational_error.rmse 0.049729 m/s
+rotational_error.rmse 3.008928 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.4, s_ell: 2500
+translational_error.rmse 0.049805 m/s
+rotational_error.rmse 3.019484 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.4, s_ell: 2600
+translational_error.rmse 0.049885 m/s
+rotational_error.rmse 3.002841 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.4, s_ell: 2700
+translational_error.rmse 0.048931 m/s
+rotational_error.rmse 3.029039 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.4, s_ell: 2800
+translational_error.rmse 0.050080 m/s
+rotational_error.rmse 3.021799 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.4, s_ell: 2900
+translational_error.rmse 0.050091 m/s
+rotational_error.rmse 3.013936 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.4, s_ell: 3000
+translational_error.rmse 0.050383 m/s
+rotational_error.rmse 3.025676 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.6, s_ell: 800
+translational_error.rmse 0.050939 m/s
+rotational_error.rmse 3.092975 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.6, s_ell: 900
+translational_error.rmse 0.050690 m/s
+rotational_error.rmse 3.070913 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.6, s_ell: 1000
+translational_error.rmse 0.050961 m/s
+rotational_error.rmse 3.136332 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.6, s_ell: 1100
+translational_error.rmse 0.051723 m/s
+rotational_error.rmse 3.120895 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.6, s_ell: 1200
+translational_error.rmse 0.051661 m/s
+rotational_error.rmse 3.137548 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.6, s_ell: 1300
+translational_error.rmse 0.052091 m/s
+rotational_error.rmse 3.155598 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.6, s_ell: 1400
+translational_error.rmse 0.051411 m/s
+rotational_error.rmse 3.126755 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.6, s_ell: 1500
+translational_error.rmse 0.051795 m/s
+rotational_error.rmse 3.144261 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.6, s_ell: 1600
+translational_error.rmse 0.051523 m/s
+rotational_error.rmse 3.136860 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.6, s_ell: 1700
+translational_error.rmse 0.051199 m/s
+rotational_error.rmse 3.099934 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.6, s_ell: 1800
+translational_error.rmse 0.051466 m/s
+rotational_error.rmse 3.139136 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.6, s_ell: 1900
+translational_error.rmse 0.051444 m/s
+rotational_error.rmse 3.134896 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.6, s_ell: 2000
+translational_error.rmse 0.051824 m/s
+rotational_error.rmse 3.133657 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.6, s_ell: 2100
+translational_error.rmse 0.051726 m/s
+rotational_error.rmse 3.129451 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.6, s_ell: 2200
+translational_error.rmse 0.052145 m/s
+rotational_error.rmse 3.155478 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.6, s_ell: 2300
+translational_error.rmse 0.052533 m/s
+rotational_error.rmse 3.164183 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.6, s_ell: 2400
+translational_error.rmse 0.052297 m/s
+rotational_error.rmse 3.154274 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.6, s_ell: 2500
+translational_error.rmse 0.052083 m/s
+rotational_error.rmse 3.140180 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.6, s_ell: 2600
+translational_error.rmse 0.052198 m/s
+rotational_error.rmse 3.159109 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.6, s_ell: 2700
+translational_error.rmse 0.051776 m/s
+rotational_error.rmse 3.140692 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.6, s_ell: 2800
+translational_error.rmse 0.052087 m/s
+rotational_error.rmse 3.152063 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.6, s_ell: 2900
+translational_error.rmse 0.052236 m/s
+rotational_error.rmse 3.162619 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.6, s_ell: 3000
+translational_error.rmse 0.052527 m/s
+rotational_error.rmse 3.177105 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.8, s_ell: 800
+translational_error.rmse 0.051906 m/s
+rotational_error.rmse 3.166321 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.8, s_ell: 900
+translational_error.rmse 0.052118 m/s
+rotational_error.rmse 3.172009 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.8, s_ell: 1000
+translational_error.rmse 0.052403 m/s
+rotational_error.rmse 3.188884 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.8, s_ell: 1100
+translational_error.rmse 0.051838 m/s
+rotational_error.rmse 3.167968 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.8, s_ell: 1200
+translational_error.rmse 0.052096 m/s
+rotational_error.rmse 3.180654 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.8, s_ell: 1200
+translational_error.rmse 0.052023 m/s
+rotational_error.rmse 3.159334 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.8, s_ell: 1300
+translational_error.rmse 0.051655 m/s
+rotational_error.rmse 3.145737 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.8, s_ell: 1400
+translational_error.rmse 0.051962 m/s
+rotational_error.rmse 3.162954 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.8, s_ell: 1500
+translational_error.rmse 0.051677 m/s
+rotational_error.rmse 3.138539 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.8, s_ell: 1600
+translational_error.rmse 0.051690 m/s
+rotational_error.rmse 3.125326 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.8, s_ell: 1700
+translational_error.rmse 0.051519 m/s
+rotational_error.rmse 3.128033 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.8, s_ell: 1800
+translational_error.rmse 0.051113 m/s
+rotational_error.rmse 3.120569 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.8, s_ell: 1900
+translational_error.rmse 0.051014 m/s
+rotational_error.rmse 3.113396 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.8, s_ell: 2000
+translational_error.rmse 0.051163 m/s
+rotational_error.rmse 3.134271 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.8, s_ell: 2100
+translational_error.rmse 0.051143 m/s
+rotational_error.rmse 3.105673 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.8, s_ell: 2200
+translational_error.rmse 0.050554 m/s
+rotational_error.rmse 3.116471 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.8, s_ell: 2300
+translational_error.rmse 0.051411 m/s
+rotational_error.rmse 3.132524 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.8, s_ell: 2400
+translational_error.rmse 0.050644 m/s
+rotational_error.rmse 3.120690 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.8, s_ell: 2500
+translational_error.rmse 0.050850 m/s
+rotational_error.rmse 3.145775 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.8, s_ell: 2600
+translational_error.rmse 0.051346 m/s
+rotational_error.rmse 3.126276 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.8, s_ell: 2700
+translational_error.rmse 0.050700 m/s
+rotational_error.rmse 3.120494 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.8, s_ell: 2800
+translational_error.rmse 0.050601 m/s
+rotational_error.rmse 3.107533 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.8, s_ell: 2900
+translational_error.rmse 0.050694 m/s
+rotational_error.rmse 3.135530 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.8, s_ell: 3000
+translational_error.rmse 0.051182 m/s
+rotational_error.rmse 3.150404 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 2.0, s_ell: 2300
+translational_error.rmse 0.050907 m/s
+rotational_error.rmse 3.137694 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 2.0, s_ell: 2400
+translational_error.rmse 0.050834 m/s
+rotational_error.rmse 3.117922 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 2.0, s_ell: 2500
+translational_error.rmse 0.051606 m/s
+rotational_error.rmse 3.123106 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 2.0, s_ell: 2600
+translational_error.rmse 0.050778 m/s
+rotational_error.rmse 3.128791 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 2.0, s_ell: 2700
+translational_error.rmse 0.050779 m/s
+rotational_error.rmse 3.129359 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 2.0, s_ell: 2800
+translational_error.rmse 0.050418 m/s
+rotational_error.rmse 3.098847 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 2.0, s_ell: 2900
+translational_error.rmse 0.050666 m/s
+rotational_error.rmse 3.095279 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 2.0, s_ell: 3000
+translational_error.rmse 0.050476 m/s
+rotational_error.rmse 3.095508 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.0, s_ell: 800
+translational_error.rmse 0.417114 m/s
+rotational_error.rmse 66.165784 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.0, s_ell: 900
+translational_error.rmse 0.372134 m/s
+rotational_error.rmse 60.791210 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.0, s_ell: 1000
+translational_error.rmse 0.351255 m/s
+rotational_error.rmse 54.778403 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.0, s_ell: 1100
+translational_error.rmse 0.379640 m/s
+rotational_error.rmse 57.929392 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.0, s_ell: 1200
+translational_error.rmse 0.336154 m/s
+rotational_error.rmse 30.667387 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.0, s_ell: 1300
+translational_error.rmse 0.274325 m/s
+rotational_error.rmse 26.746756 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.0, s_ell: 1400
+translational_error.rmse 0.286005 m/s
+rotational_error.rmse 25.630284 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.0, s_ell: 1500
+translational_error.rmse 0.322934 m/s
+rotational_error.rmse 28.418111 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.0, s_ell: 1600
+translational_error.rmse 0.336230 m/s
+rotational_error.rmse 29.800087 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.0, s_ell: 1700
+translational_error.rmse 0.331019 m/s
+rotational_error.rmse 25.170260 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.0, s_ell: 1800
+translational_error.rmse 0.475937 m/s
+rotational_error.rmse 22.634068 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.0, s_ell: 1900
+translational_error.rmse 0.460704 m/s
+rotational_error.rmse 20.732064 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.0, s_ell: 2000
+translational_error.rmse 0.303242 m/s
+rotational_error.rmse 22.314789 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.0, s_ell: 2100
+translational_error.rmse 0.148365 m/s
+rotational_error.rmse 8.740993 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.0, s_ell: 2200
+translational_error.rmse 0.062517 m/s
+rotational_error.rmse 3.599109 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.0, s_ell: 2300
+translational_error.rmse 0.055637 m/s
+rotational_error.rmse 3.606471 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.0, s_ell: 2400
+translational_error.rmse 0.058266 m/s
+rotational_error.rmse 3.756344 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.0, s_ell: 2500
+translational_error.rmse 0.402476 m/s
+rotational_error.rmse 18.400504 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.0, s_ell: 2600
+translational_error.rmse 0.052110 m/s
+rotational_error.rmse 3.431193 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.0, s_ell: 2700
+translational_error.rmse 0.053835 m/s
+rotational_error.rmse 3.543228 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.0, s_ell: 2800
+translational_error.rmse 0.051230 m/s
+rotational_error.rmse 3.334957 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.0, s_ell: 2900
+translational_error.rmse 0.053306 m/s
+rotational_error.rmse 3.470509 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.0, s_ell: 3000
+translational_error.rmse 0.065227 m/s
+rotational_error.rmse 4.022512 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.2, s_ell: 800
+translational_error.rmse 0.054944 m/s
+rotational_error.rmse 2.897905 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.2, s_ell: 900
+translational_error.rmse 0.054017 m/s
+rotational_error.rmse 2.879552 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.2, s_ell: 1000
+translational_error.rmse 0.053046 m/s
+rotational_error.rmse 2.902265 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.2, s_ell: 1100
+translational_error.rmse 0.052828 m/s
+rotational_error.rmse 2.875816 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.2, s_ell: 1200
+translational_error.rmse 0.052968 m/s
+rotational_error.rmse 2.844860 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.2, s_ell: 1300
+translational_error.rmse 0.052384 m/s
+rotational_error.rmse 2.844533 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.2, s_ell: 1400
+translational_error.rmse 0.052987 m/s
+rotational_error.rmse 2.875888 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.2, s_ell: 1500
+translational_error.rmse 0.053156 m/s
+rotational_error.rmse 2.876418 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.2, s_ell: 1600
+translational_error.rmse 0.052696 m/s
+rotational_error.rmse 2.879334 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.2, s_ell: 1700
+translational_error.rmse 0.053464 m/s
+rotational_error.rmse 2.884828 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.2, s_ell: 1800
+translational_error.rmse 0.053095 m/s
+rotational_error.rmse 2.857554 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.2, s_ell: 1900
+translational_error.rmse 0.053269 m/s
+rotational_error.rmse 2.868844 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.2, s_ell: 2000
+translational_error.rmse 0.053293 m/s
+rotational_error.rmse 2.863536 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.2, s_ell: 2100
+translational_error.rmse 0.053026 m/s
+rotational_error.rmse 2.854273 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.2, s_ell: 2200
+translational_error.rmse 0.053095 m/s
+rotational_error.rmse 2.861876 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.2, s_ell: 2300
+translational_error.rmse 0.053713 m/s
+rotational_error.rmse 2.878369 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.2, s_ell: 2400
+translational_error.rmse 0.053539 m/s
+rotational_error.rmse 2.870874 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.2, s_ell: 2500
+translational_error.rmse 0.053707 m/s
+rotational_error.rmse 2.875244 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.2, s_ell: 2600
+translational_error.rmse 0.054363 m/s
+rotational_error.rmse 2.880052 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.2, s_ell: 2700
+translational_error.rmse 0.053974 m/s
+rotational_error.rmse 2.882380 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.2, s_ell: 2800
+translational_error.rmse 0.053743 m/s
+rotational_error.rmse 2.887677 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.2, s_ell: 2900
+translational_error.rmse 0.053000 m/s
+rotational_error.rmse 2.861494 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.2, s_ell: 3000
+translational_error.rmse 0.053578 m/s
+rotational_error.rmse 2.874566 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.4, s_ell: 800
+translational_error.rmse 0.055242 m/s
+rotational_error.rmse 2.943636 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.4, s_ell: 900
+translational_error.rmse 0.054707 m/s
+rotational_error.rmse 2.961583 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.4, s_ell: 1000
+translational_error.rmse 0.056071 m/s
+rotational_error.rmse 2.982721 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.4, s_ell: 1100
+translational_error.rmse 0.056760 m/s
+rotational_error.rmse 2.998517 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.4, s_ell: 1200
+translational_error.rmse 0.056394 m/s
+rotational_error.rmse 2.995627 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.4, s_ell: 1300
+translational_error.rmse 0.058835 m/s
+rotational_error.rmse 3.001444 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.4, s_ell: 1400
+translational_error.rmse 0.059036 m/s
+rotational_error.rmse 3.007211 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.4, s_ell: 1500
+translational_error.rmse 0.057411 m/s
+rotational_error.rmse 3.005374 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.4, s_ell: 1600
+translational_error.rmse 0.057598 m/s
+rotational_error.rmse 3.019720 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.4, s_ell: 1700
+translational_error.rmse 0.057694 m/s
+rotational_error.rmse 3.006669 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.4, s_ell: 1800
+translational_error.rmse 0.057598 m/s
+rotational_error.rmse 3.017101 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.4, s_ell: 1900
+translational_error.rmse 0.057640 m/s
+rotational_error.rmse 3.011648 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.4, s_ell: 2000
+translational_error.rmse 0.057464 m/s
+rotational_error.rmse 3.017944 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.4, s_ell: 2100
+translational_error.rmse 0.057707 m/s
+rotational_error.rmse 3.011255 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.4, s_ell: 2200
+translational_error.rmse 0.057187 m/s
+rotational_error.rmse 3.008166 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.4, s_ell: 2300
+translational_error.rmse 0.058705 m/s
+rotational_error.rmse 3.043291 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.4, s_ell: 2400
+translational_error.rmse 0.058283 m/s
+rotational_error.rmse 3.034468 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.4, s_ell: 2500
+translational_error.rmse 0.057825 m/s
+rotational_error.rmse 3.036690 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.4, s_ell: 2600
+translational_error.rmse 0.057993 m/s
+rotational_error.rmse 3.041460 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.4, s_ell: 2700
+translational_error.rmse 0.057614 m/s
+rotational_error.rmse 3.025907 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.4, s_ell: 2800
+translational_error.rmse 0.058620 m/s
+rotational_error.rmse 3.048348 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.4, s_ell: 2900
+translational_error.rmse 0.058161 m/s
+rotational_error.rmse 3.037447 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.4, s_ell: 3000
+translational_error.rmse 0.058169 m/s
+rotational_error.rmse 3.045171 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.6, s_ell: 800
+translational_error.rmse 0.061138 m/s
+rotational_error.rmse 3.077418 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.6, s_ell: 900
+translational_error.rmse 0.059049 m/s
+rotational_error.rmse 3.059283 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.6, s_ell: 1000
+translational_error.rmse 0.058646 m/s
+rotational_error.rmse 3.062264 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.6, s_ell: 1100
+translational_error.rmse 0.061364 m/s
+rotational_error.rmse 3.074413 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.6, s_ell: 1200
+translational_error.rmse 0.060856 m/s
+rotational_error.rmse 3.066279 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.6, s_ell: 1300
+translational_error.rmse 0.061137 m/s
+rotational_error.rmse 3.061593 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.6, s_ell: 1400
+translational_error.rmse 0.061612 m/s
+rotational_error.rmse 3.074321 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.6, s_ell: 1500
+translational_error.rmse 0.062803 m/s
+rotational_error.rmse 3.041685 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.6, s_ell: 1600
+translational_error.rmse 0.063905 m/s
+rotational_error.rmse 3.070546 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.6, s_ell: 1700
+translational_error.rmse 0.063625 m/s
+rotational_error.rmse 3.059871 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.6, s_ell: 1800
+translational_error.rmse 0.061295 m/s
+rotational_error.rmse 3.052010 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.6, s_ell: 1900
+translational_error.rmse 0.063798 m/s
+rotational_error.rmse 3.065368 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.6, s_ell: 2000
+translational_error.rmse 0.063688 m/s
+rotational_error.rmse 3.070434 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.6, s_ell: 2100
+translational_error.rmse 0.063635 m/s
+rotational_error.rmse 3.062894 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.6, s_ell: 2200
+translational_error.rmse 0.061637 m/s
+rotational_error.rmse 3.073527 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.6, s_ell: 2300
+translational_error.rmse 0.061148 m/s
+rotational_error.rmse 3.055320 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.6, s_ell: 2400
+translational_error.rmse 0.061417 m/s
+rotational_error.rmse 3.070494 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.6, s_ell: 2500
+translational_error.rmse 0.061463 m/s
+rotational_error.rmse 3.070741 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.6, s_ell: 2600
+translational_error.rmse 0.061342 m/s
+rotational_error.rmse 3.060833 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.6, s_ell: 2700
+translational_error.rmse 0.061714 m/s
+rotational_error.rmse 3.068154 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.6, s_ell: 2800
+translational_error.rmse 0.061096 m/s
+rotational_error.rmse 3.058811 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.6, s_ell: 2900
+translational_error.rmse 0.061070 m/s
+rotational_error.rmse 3.061347 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.6, s_ell: 3000
+translational_error.rmse 0.061302 m/s
+rotational_error.rmse 3.065991 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.8, s_ell: 800
+translational_error.rmse 0.064071 m/s
+rotational_error.rmse 3.092618 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.8, s_ell: 900
+translational_error.rmse 0.064493 m/s
+rotational_error.rmse 3.083070 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.8, s_ell: 1000
+translational_error.rmse 0.063540 m/s
+rotational_error.rmse 3.083256 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.8, s_ell: 1100
+translational_error.rmse 0.063776 m/s
+rotational_error.rmse 3.079444 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.8, s_ell: 1200
+translational_error.rmse 0.061742 m/s
+rotational_error.rmse 3.080544 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.8, s_ell: 1300
+translational_error.rmse 0.064092 m/s
+rotational_error.rmse 3.091060 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.8, s_ell: 1400
+translational_error.rmse 0.063518 m/s
+rotational_error.rmse 3.087944 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.8, s_ell: 1500
+translational_error.rmse 0.061394 m/s
+rotational_error.rmse 3.103548 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.8, s_ell: 1600
+translational_error.rmse 0.061782 m/s
+rotational_error.rmse 3.092111 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.8, s_ell: 1700
+translational_error.rmse 0.061107 m/s
+rotational_error.rmse 3.086502 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.8, s_ell: 1800
+translational_error.rmse 0.061419 m/s
+rotational_error.rmse 3.083622 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.8, s_ell: 1900
+translational_error.rmse 0.061171 m/s
+rotational_error.rmse 3.085710 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.8, s_ell: 2000
+translational_error.rmse 0.061267 m/s
+rotational_error.rmse 3.085177 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.8, s_ell: 2100
+translational_error.rmse 0.061261 m/s
+rotational_error.rmse 3.085074 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.8, s_ell: 2200
+translational_error.rmse 0.060905 m/s
+rotational_error.rmse 3.080084 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.8, s_ell: 2300
+translational_error.rmse 0.061546 m/s
+rotational_error.rmse 3.094396 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.8, s_ell: 2400
+translational_error.rmse 0.061473 m/s
+rotational_error.rmse 3.082470 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.8, s_ell: 2500
+translational_error.rmse 0.062699 m/s
+rotational_error.rmse 3.057763 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.8, s_ell: 2600
+translational_error.rmse 0.061525 m/s
+rotational_error.rmse 3.087749 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.8, s_ell: 2700
+translational_error.rmse 0.061003 m/s
+rotational_error.rmse 3.092655 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.8, s_ell: 2800
+translational_error.rmse 0.061215 m/s
+rotational_error.rmse 3.082957 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.8, s_ell: 2900
+translational_error.rmse 0.062647 m/s
+rotational_error.rmse 3.063746 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.8, s_ell: 3000
+translational_error.rmse 0.061289 m/s
+rotational_error.rmse 3.088721 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 2.0, s_ell: 800
+translational_error.rmse 0.061722 m/s
+rotational_error.rmse 3.097537 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 2.0, s_ell: 900
+translational_error.rmse 0.062054 m/s
+rotational_error.rmse 3.090463 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 2.0, s_ell: 1000
+translational_error.rmse 0.061535 m/s
+rotational_error.rmse 3.095089 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 2.0, s_ell: 1100
+translational_error.rmse 0.061626 m/s
+rotational_error.rmse 3.093913 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 2.0, s_ell: 1200
+translational_error.rmse 0.061826 m/s
+rotational_error.rmse 3.095878 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 2.0, s_ell: 1300
+translational_error.rmse 0.061261 m/s
+rotational_error.rmse 3.085501 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 2.0, s_ell: 1400
+translational_error.rmse 0.061256 m/s
+rotational_error.rmse 3.077587 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 2.0, s_ell: 1500
+translational_error.rmse 0.061250 m/s
+rotational_error.rmse 3.095612 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 2.0, s_ell: 1600
+translational_error.rmse 0.061555 m/s
+rotational_error.rmse 3.087885 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 2.0, s_ell: 1700
+translational_error.rmse 0.061623 m/s
+rotational_error.rmse 3.086953 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 2.0, s_ell: 1800
+translational_error.rmse 0.061395 m/s
+rotational_error.rmse 3.086442 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 2.0, s_ell: 1900
+translational_error.rmse 0.061337 m/s
+rotational_error.rmse 3.087295 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 2.0, s_ell: 2000
+translational_error.rmse 0.061259 m/s
+rotational_error.rmse 3.092902 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 2.0, s_ell: 2100
+translational_error.rmse 0.061166 m/s
+rotational_error.rmse 3.077027 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 2.0, s_ell: 2200
+translational_error.rmse 0.061422 m/s
+rotational_error.rmse 3.090868 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 2.0, s_ell: 2300
+translational_error.rmse 0.061366 m/s
+rotational_error.rmse 3.084206 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 2.0, s_ell: 2400
+translational_error.rmse 0.061480 m/s
+rotational_error.rmse 3.089302 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 2.0, s_ell: 2500
+translational_error.rmse 0.061273 m/s
+rotational_error.rmse 3.083270 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 2.0, s_ell: 2600
+translational_error.rmse 0.061110 m/s
+rotational_error.rmse 3.079165 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 2.0, s_ell: 2700
+translational_error.rmse 0.061336 m/s
+rotational_error.rmse 3.076284 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 2.0, s_ell: 2800
+translational_error.rmse 0.060857 m/s
+rotational_error.rmse 3.072840 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 2.0, s_ell: 2900
+translational_error.rmse 0.061077 m/s
+rotational_error.rmse 3.084647 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 2.0, s_ell: 3000
+translational_error.rmse 0.061034 m/s
+rotational_error.rmse 3.079210 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 0.8, s_ell: 2000
+translational_error.rmse 0.274327 m/s
+rotational_error.rmse 10.611105 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 0.8, s_ell: 2100
+translational_error.rmse 0.274327 m/s
+rotational_error.rmse 10.611105 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 0.8, s_ell: 2200
+translational_error.rmse 0.274327 m/s
+rotational_error.rmse 10.611105 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 0.8, s_ell: 2300
+translational_error.rmse 0.274327 m/s
+rotational_error.rmse 10.611105 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 0.8, s_ell: 2400
+translational_error.rmse 0.274327 m/s
+rotational_error.rmse 10.611105 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 0.8, s_ell: 2500
+translational_error.rmse 0.274327 m/s
+rotational_error.rmse 10.611105 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 0.8, s_ell: 2600
+translational_error.rmse 0.274327 m/s
+rotational_error.rmse 10.611105 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 0.8, s_ell: 2700
+translational_error.rmse 0.274327 m/s
+rotational_error.rmse 10.611105 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 0.8, s_ell: 2800
+translational_error.rmse 0.274327 m/s
+rotational_error.rmse 10.611105 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 0.8, s_ell: 2900
+translational_error.rmse 0.274327 m/s
+rotational_error.rmse 10.611105 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 0.8, s_ell: 3000
+translational_error.rmse 0.274327 m/s
+rotational_error.rmse 10.611105 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 0.8, s_ell: 2000
+translational_error.rmse 0.457844 m/s
+rotational_error.rmse 25.459803 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 0.8, s_ell: 2100
+translational_error.rmse 0.457844 m/s
+rotational_error.rmse 25.459803 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 0.8, s_ell: 2200
+translational_error.rmse 0.457844 m/s
+rotational_error.rmse 25.459803 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 0.8, s_ell: 2300
+translational_error.rmse 0.457844 m/s
+rotational_error.rmse 25.459803 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 0.8, s_ell: 2400
+translational_error.rmse 0.457844 m/s
+rotational_error.rmse 25.459803 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 0.8, s_ell: 2500
+translational_error.rmse 0.457844 m/s
+rotational_error.rmse 25.459803 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 0.8, s_ell: 2600
+translational_error.rmse 0.457844 m/s
+rotational_error.rmse 25.459803 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 0.8, s_ell: 2700
+translational_error.rmse 0.457844 m/s
+rotational_error.rmse 25.459803 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 0.8, s_ell: 2800
+translational_error.rmse 0.457844 m/s
+rotational_error.rmse 25.459803 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 0.8, s_ell: 2900
+translational_error.rmse 0.457844 m/s
+rotational_error.rmse 25.459803 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 0.8, s_ell: 3000
+translational_error.rmse 0.457844 m/s
+rotational_error.rmse 25.459803 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 0.8, s_ell: 2000
+translational_error.rmse 0.485305 m/s
+rotational_error.rmse 33.340211 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 0.8, s_ell: 2100
+translational_error.rmse 0.485305 m/s
+rotational_error.rmse 33.340211 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 0.8, s_ell: 2200
+translational_error.rmse 0.485305 m/s
+rotational_error.rmse 33.340211 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 0.8, s_ell: 2300
+translational_error.rmse 0.485305 m/s
+rotational_error.rmse 33.340211 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 0.8, s_ell: 2400
+translational_error.rmse 0.485305 m/s
+rotational_error.rmse 33.340211 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 0.8, s_ell: 2500
+translational_error.rmse 0.485305 m/s
+rotational_error.rmse 33.340211 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 0.8, s_ell: 2600
+translational_error.rmse 0.485305 m/s
+rotational_error.rmse 33.340211 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 0.8, s_ell: 2700
+translational_error.rmse 0.485305 m/s
+rotational_error.rmse 33.340211 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 0.8, s_ell: 2800
+translational_error.rmse 0.485305 m/s
+rotational_error.rmse 33.340211 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 0.8, s_ell: 2900
+translational_error.rmse 0.485305 m/s
+rotational_error.rmse 33.340211 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 0.8, s_ell: 3000
+translational_error.rmse 0.485305 m/s
+rotational_error.rmse 33.340211 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.0, s_ell: 3100
+translational_error.rmse 0.021754 m/s
+rotational_error.rmse 0.969062 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.0, s_ell: 3200
+translational_error.rmse 0.021899 m/s
+rotational_error.rmse 0.975634 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.0, s_ell: 3300
+translational_error.rmse 0.021922 m/s
+rotational_error.rmse 0.979768 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.0, s_ell: 3400
+translational_error.rmse 0.021846 m/s
+rotational_error.rmse 0.982570 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.0, s_ell: 3500
+translational_error.rmse 0.021769 m/s
+rotational_error.rmse 0.977796 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.0, s_ell: 3600
+translational_error.rmse 0.021999 m/s
+rotational_error.rmse 0.970092 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.0, s_ell: 3700
+translational_error.rmse 0.022040 m/s
+rotational_error.rmse 0.979876 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.0, s_ell: 3800
+translational_error.rmse 0.021928 m/s
+rotational_error.rmse 0.977224 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.0, s_ell: 3900
+translational_error.rmse 0.022010 m/s
+rotational_error.rmse 0.982575 deg
+-------------------------------
+Dataset: freiburg1_xyz, s_sigma: 1.0, s_ell: 4000
+translational_error.rmse 0.022060 m/s
+rotational_error.rmse 0.978246 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.0, s_ell: 3100
+translational_error.rmse 0.052739 m/s
+rotational_error.rmse 3.006250 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.0, s_ell: 3200
+translational_error.rmse 0.060379 m/s
+rotational_error.rmse 3.033999 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.0, s_ell: 3300
+translational_error.rmse 0.059879 m/s
+rotational_error.rmse 3.011072 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.0, s_ell: 3400
+translational_error.rmse 0.059155 m/s
+rotational_error.rmse 2.810602 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.0, s_ell: 3500
+translational_error.rmse 0.059405 m/s
+rotational_error.rmse 2.767892 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.0, s_ell: 3600
+translational_error.rmse 0.058887 m/s
+rotational_error.rmse 2.747502 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.0, s_ell: 3700
+translational_error.rmse 0.050751 m/s
+rotational_error.rmse 2.725591 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.0, s_ell: 3800
+translational_error.rmse 0.049947 m/s
+rotational_error.rmse 2.696088 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.0, s_ell: 3900
+translational_error.rmse 0.050099 m/s
+rotational_error.rmse 2.676819 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 1.0, s_ell: 4000
+translational_error.rmse 0.050568 m/s
+rotational_error.rmse 2.701525 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.0, s_ell: 3100
+translational_error.rmse 0.051204 m/s
+rotational_error.rmse 2.919468 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.0, s_ell: 3200
+translational_error.rmse 0.052150 m/s
+rotational_error.rmse 3.111406 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.0, s_ell: 3300
+translational_error.rmse 0.048922 m/s
+rotational_error.rmse 2.802703 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.0, s_ell: 3400
+translational_error.rmse 0.052491 m/s
+rotational_error.rmse 2.823306 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.0, s_ell: 3500
+translational_error.rmse 0.048924 m/s
+rotational_error.rmse 2.799872 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.0, s_ell: 3600
+translational_error.rmse 0.048559 m/s
+rotational_error.rmse 2.780741 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.0, s_ell: 3700
+translational_error.rmse 0.048527 m/s
+rotational_error.rmse 2.808711 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.0, s_ell: 3800
+translational_error.rmse 0.048527 m/s
+rotational_error.rmse 2.798078 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.0, s_ell: 3900
+translational_error.rmse 0.051259 m/s
+rotational_error.rmse 3.013814 deg
+-------------------------------
+Dataset: freiburg1_desk2, s_sigma: 1.0, s_ell: 4000
+translational_error.rmse 0.048228 m/s
+rotational_error.rmse 2.805322 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 2.0, s_ell: 800
+translational_error.rmse 0.051900 m/s
+rotational_error.rmse 3.169116 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 2.0, s_ell: 900
+translational_error.rmse 0.051916 m/s
+rotational_error.rmse 3.159737 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 2.0, s_ell: 1000
+translational_error.rmse 0.051899 m/s
+rotational_error.rmse 3.163930 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 2.0, s_ell: 1100
+translational_error.rmse 0.051396 m/s
+rotational_error.rmse 3.157986 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 2.0, s_ell: 1200
+translational_error.rmse 0.051081 m/s
+rotational_error.rmse 3.137890 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 2.0, s_ell: 1300
+translational_error.rmse 0.051039 m/s
+rotational_error.rmse 3.136482 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 2.0, s_ell: 1400
+translational_error.rmse 0.050955 m/s
+rotational_error.rmse 3.126214 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 2.0, s_ell: 1500
+translational_error.rmse 0.051029 m/s
+rotational_error.rmse 3.150507 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 2.0, s_ell: 1600
+translational_error.rmse 0.051014 m/s
+rotational_error.rmse 3.131039 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 2.0, s_ell: 1700
+translational_error.rmse 0.050517 m/s
+rotational_error.rmse 3.100217 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 2.0, s_ell: 1800
+translational_error.rmse 0.050866 m/s
+rotational_error.rmse 3.131524 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 2.0, s_ell: 1900
+translational_error.rmse 0.051091 m/s
+rotational_error.rmse 3.134957 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 2.0, s_ell: 2000
+translational_error.rmse 0.050857 m/s
+rotational_error.rmse 3.125037 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 2.0, s_ell: 2100
+translational_error.rmse 0.051232 m/s
+rotational_error.rmse 3.126281 deg
+-------------------------------
+Dataset: freiburg1_desk, s_sigma: 2.0, s_ell: 2200
+translational_error.rmse 0.050933 m/s
+rotational_error.rmse 3.139133 deg

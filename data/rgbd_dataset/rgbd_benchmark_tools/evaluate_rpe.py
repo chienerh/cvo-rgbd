@@ -321,8 +321,11 @@ if __name__ == '__main__':
     parser.add_argument('--save', help='text file to which the evaluation will be saved (format: stamp_est0 stamp_est1 stamp_gt0 stamp_gt1 trans_error rot_error)')
     parser.add_argument('--plot', help='plot the result to a file (requires --fixed_delta, output format: png)')
     parser.add_argument('--verbose', help='print all evaluation data (otherwise, only the mean translational error measured in meters will be printed)', action='store_true')
+    parser.add_argument('--title', help='input title for plotting')
     args = parser.parse_args()
     
+    filename = ''
+
     if args.plot and not args.fixed_delta:
         sys.exit("The '--plot' option can only be used in combination with '--fixed_delta'")
     
@@ -348,35 +351,68 @@ if __name__ == '__main__':
         f.close()
     
     if args.verbose:
-        print "compared_pose_pairs %d pairs"%(len(trans_error))
+        # print ("compared_pose_pairs %d pairs"%(len(trans_error)))
 
-        print "translational_error.rmse %f m"%numpy.sqrt(numpy.dot(trans_error,trans_error) / len(trans_error))
-        print "translational_error.mean %f m"%numpy.mean(trans_error)
-        print "translational_error.median %f m"%numpy.median(trans_error)
-        print "translational_error.std %f m"%numpy.std(trans_error)
-        print "translational_error.min %f m"%numpy.min(trans_error)
-        print "translational_error.max %f m"%numpy.max(trans_error)
+        print ("translational_error.rmse %f m/s"%numpy.sqrt(numpy.dot(trans_error,trans_error) / len(trans_error)))
+        # print ("translational_error.mean %f m/s"%numpy.mean(trans_error))
+        # print ("translational_error.median %f m/s"%numpy.median(trans_error))
+        # print ("translational_error.std %f m/s"%numpy.std(trans_error))
+        # print ("translational_error.min %f m/s"%numpy.min(trans_error))
+        # print ("translational_error.max %f m/s"%numpy.max(trans_error))
 
-        print "rotational_error.rmse %f deg"%(numpy.sqrt(numpy.dot(rot_error,rot_error) / len(rot_error)) * 180.0 / numpy.pi)
-        print "rotational_error.mean %f deg"%(numpy.mean(rot_error) * 180.0 / numpy.pi)
-        print "rotational_error.median %f deg"%(numpy.median(rot_error) * 180.0 / numpy.pi)
-        print "rotational_error.std %f deg"%(numpy.std(rot_error) * 180.0 / numpy.pi)
-        print "rotational_error.min %f deg"%(numpy.min(rot_error) * 180.0 / numpy.pi)
-        print "rotational_error.max %f deg"%(numpy.max(rot_error) * 180.0 / numpy.pi)
+        print ("rotational_error.rmse %f deg"%(numpy.sqrt(numpy.dot(rot_error,rot_error) / len(rot_error)) * 180.0 / numpy.pi))
+        # print ("rotational_error.mean %f deg"%(numpy.mean(rot_error) * 180.0 / numpy.pi))
+        # print ("rotational_error.median %f deg"%(numpy.median(rot_error) * 180.0 / numpy.pi))
+        # print ("rotational_error.std %f deg"%(numpy.std(rot_error) * 180.0 / numpy.pi))
+        # print ("rotational_error.min %f deg"%(numpy.min(rot_error) * 180.0 / numpy.pi))
+        # print ("rotational_error.max %f deg"%(numpy.max(rot_error) * 180.0 / numpy.pi))
+
+        # print ("----------------------------------")
+        # print ("%f"%numpy.sqrt(numpy.dot(trans_error,trans_error) / len(trans_error)))
+        # print ("%f"%numpy.mean(trans_error))
+        # print ("%f"%numpy.median(trans_error))
+        # print ("%f"%numpy.std(trans_error))
+        # print ("%f"%numpy.min(trans_error))
+        # print ("%f"%numpy.max(trans_error))
+
+        # print ("%f"%(numpy.sqrt(numpy.dot(rot_error,rot_error) / len(rot_error)) * 180.0 / numpy.pi))
+        # print ("%f"%(numpy.mean(rot_error) * 180.0 / numpy.pi))
+        # print ("%f"%(numpy.median(rot_error) * 180.0 / numpy.pi))
+        # print ("%f"%(numpy.std(rot_error) * 180.0 / numpy.pi))
+        # print ("%f"%(numpy.min(rot_error) * 180.0 / numpy.pi))
+        # print ("%f"%(numpy.max(rot_error) * 180.0 / numpy.pi))
     else:
-        print numpy.mean(trans_error)
+        print (numpy.mean(trans_error))
+    
+    if args.title:
+        filename = args.title
 
     if args.plot:    
         import matplotlib
-        matplotlib.use('Agg')
+        # matplotlib.use('Agg')
         import matplotlib.pyplot as plt
         import matplotlib.pylab as pylab
         fig = plt.figure()
         ax = fig.add_subplot(111)        
         ax.plot(stamps - stamps[0],trans_error,'-',color="blue")
-        #ax.plot([t for t,e in err_rot],[e for t,e in err_rot],'-',color="red")
+        # ax.plot([t for t,e in rot_error],[e for t,e in rot_error],'-',color="red")
+        ax.set_title('Relative Translational Error with '+filename)
+        ax.set_ylim(0,1)
         ax.set_xlabel('time [s]')
         ax.set_ylabel('translational error [m]')
         plt.savefig(args.plot,dpi=300)
+
+        # for i, err in enumerate(trans_error):
+        #     if err>0.1:
+        #         print("index ", i, ", name " , stamps[i] , ", time" , stamps[i]-stamps[0] , ", err", err)
         
+        n = len(args.plot)
+        fig2 = plt.figure()
+        ax2 = fig2.add_subplot(111)        
+        ax2.plot(stamps - stamps[0],rot_error,'-',color="red")
+        ax2.set_title('Relative Rotational Error with '+filename)
+        ax2.set_ylim(0,1)
+        ax2.set_xlabel('time [s]')
+        ax2.set_ylabel('rotational error [rad]')
+        plt.savefig(args.plot[0:n-4]+'_rot.png',dpi=300)
 

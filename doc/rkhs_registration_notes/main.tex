@@ -1,0 +1,364 @@
+\documentclass[conference]{IEEEtran}
+\usepackage{times}
+\usepackage{lipsum}
+% numbers option provides compact numerical references in the text. 
+\usepackage[numbers]{natbib}
+\usepackage{multicol}
+\usepackage[bookmarks=true]{hyperref}
+
+\usepackage{bbm}
+\usepackage{algorithm, algorithmicx, algpseudocode}
+\usepackage[caption=false,font=footnotesize]{subfig}
+\usepackage{booktabs} % used for prettier tables
+\usepackage[cmex10]{amsmath}
+\usepackage[mathscr]{euscript}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage[caption=false,font=footnotesize]{subfig}
+\usepackage{fixltx2e}
+\usepackage{graphicx}
+\usepackage{cleveref}
+% \usepackage{flushend}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+\usepackage{gensymb}
+
+\usepackage{soul} 
+\usepackage{color} 
+\newcommand{\hilight}[1]{\colorbox{yellow}{#1}} % to use: \hl{this is some highlighted text}
+
+\newtheorem{problem}{Problem}
+\newtheorem{theorem}{Theorem}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{remark}{Remark}
+\newtheorem{definition}{Definition}
+\newtheorem{example}{Example}
+\newtheorem{assumption}{Assumption}
+
+\newcommand{\Acal}{\mathcal{A}}
+\newcommand{\Bcal}{\mathcal{B}}
+\newcommand{\Ccal}{\mathcal{C}}
+\newcommand{\Dcal}{\mathcal{D}}
+\newcommand{\Fcal}{\mathcal{F}}
+\newcommand{\Hcal}{\mathcal{H}}
+\newcommand{\Lcal}{\mathcal{L}}
+\newcommand{\Mcal}{\mathcal{M}}
+\newcommand{\Ncal}{\mathcal{N}}
+\newcommand{\Ocal}{\mathcal{O}}
+\newcommand{\Scal}{\mathcal{S}}
+\newcommand{\Xcal}{\mathcal{X}}
+\newcommand{\Ycal}{\mathcal{Y}}
+\newcommand{\Zcal}{\mathcal{Z}}
+
+\newcommand{\m}{\mathop{\mathrm{m}}}
+
+\DeclareMathOperator*{\argmin}{arg\,min}
+\DeclareMathOperator*{\minimize}{minimize}
+
+\newcommand{\Jr}{\mathrm{J_r}}
+\newcommand{\transpose}{\mathsf{T}}
+\newcommand{\SO}{\mathrm{SO}}
+\newcommand{\SE}{\mathrm{SE}}
+\newcommand{\GL}{\mathrm{GL}}
+
+\newcommand{\bigO}[1]{\Ocal(#1)} % Big O
+\newcommand{\EV}[1]{\mathbb{E}[#1]} % Expected Value
+\newcommand{\Var}[1]{\mathbb{V}[#1]} % Variance
+\newcommand{\Cov}[1]{\mathrm{Cov}[#1]} % Covariance
+
+\newcommand{\squeezeup}{\vspace{-3mm}}
+
+\pdfinfo{
+   /Author (Maani Ghaffari Jadidi)
+   /Title  (Functional Treatment of Geometric Shapes Registration)
+   /CreationDate (\today)
+   /Subject (Geometric Shape Registration)
+   /Keywords (Scan Registration; Kernel Method)
+}
+
+\begin{document}
+
+% paper title
+\title{Functional Treatment of Geometric Shapes Registration}
+
+\author{\authorblockN{Authors}}
+% \authorblockA{Perceptual Robotics Laboratory, Department of Naval Architecture and Marine Engineering\\
+% University of Michigan, Ann Arbor, MI 48109 USA\\
+% {\tt \{{maanigj, ganlu, sparki, ljlijie, eustice\}@umich.edu}}}}
+
+\maketitle
+
+\begin{abstract}
+
+The problem of registering three-dimensional (3D) shapes have long been studied in computer graphics and robotics. Observations from shapes is often in the form of point clouds; and modern sensors can generate dense point clouds containing more than hundred thousands points. The essence of all available algorithms is using an iterative closest point-like technique to find correspondences between two point clouds and then solving for a rigid body transformation that aligns the overlapping sections of their geometry. The main issue is that the point clouds are obtained by placing the sensor at different views at two successive time-steps. As such, the two matched points, most likely do not correspond to the same physical point in the real environment. In other words, the point cloud is a discrete representation of the shape geometry. An alternative way to look at the problem is from the functional analysis point of view. A point cloud observation can be seen as samples from a geometry, and a function (or process) can be learned for a continuous representation. Such functions can be inferred using regression techniques such as Spline methods, Gaussian processes, and in general kernel methods. Now given two overlapping functions, the problem is solving for a rigid transformation that aligns the overlapping part. The goal of this work is to formulate and solve the above-mentioned problem. Evaluations ...!
+
+\end{abstract}
+
+\IEEEpeerreviewmaketitle
+
+\section{Introduction and Related Work}
+
+
+
+\section{Preliminaries}
+\label{sec:preliminaries}
+
+% We first give a quick review of inner product spaces where it is assumed readers are familiar with concepts such as fields and vector spaces. 
+In this section, after establishing the notation, we review Lie group theory corresponding to rotation and motion groups~\citep{murray1994mathematical,chirikjian2011stochastic}. In the end, we discuss the optimization technique on matrix Lie groups~\citep{absil2009optimization}.
+
+Matrices are capitalized in bold, such as in $\mathbf{X}$, and vectors are in lower case bold type, such as in $\mathbf{x}$. Vectors are column-wise and $[n]$ means the set of integers from $1$ to $n$, i.e.\@ \mbox{$\{1:n\}$}. $\mathrm{vec}(x_1,\dots,x_n)$ denotes a vector such as $\mathbf{x}$ constructed by stacking $x_i$, $\forall \ i \in [n]$. An alphabet such as $\mathcal{X}$ denotes a set. The Euclidean norm is shown by $\lVert \cdot \rVert$. $\lVert \mathbf{e} \rVert_{\boldsymbol\Sigma}^2 \triangleq \mathbf{e}^\transpose \boldsymbol\Sigma^{-1} \mathbf{e}$. The $n$-by-$n$ identity matrix is denoted by $\mathbf{I}_n$. $\mathbf{0}_n$ denotes the vector of zeros with dimensions $n$. Finally, $\Cov\cdot$ denotes the covariance of a random vectors.
+
+\subsection{Matrix Lie Group of Rotation and Motion}
+
+The general linear group of degree $n$, denoted by \mbox{\small{$\GL_n(\mathbb{R})$}}, is the set of all $n\times n$ nonsingular real matrices, where the group binary operation is the ordinary matrix multiplication. The three-dimensional (3D) special orthogonal group, denoted by \mbox{\small{$\SO(3) = \{\mathbf{R}\in \GL_3(\mathbb{R}) | \mathbf{R} \mathbf{R}^\transpose = \mathbf{I}_3, \operatorname{det} \mathbf{R} = +1\}$}} is the rotation group on $\mathbb{R}^3$. The 3D special Euclidean group, denoted by
+\begin{equation}
+\SE(3) = \{ \mathbf{T} = \left[\begin{array}{cc} \mathbf{R} & \mathbf{p} \\ ~\mathbf{0}_3^\transpose & 1 \end{array} \right] \in \GL_4(\mathbb{R}) | \mathbf{R} \in \SO(3), \mathbf{p} \in \mathbb{R}^3 \}
+\end{equation}
+is the group of rigid transformations on $\mathbb{R}^3$. The Lie algebra (tangent space at the identity together with Lie bracket) of $\SO(3)$, denoted by $\mathfrak{so}(3)$, is the set of $3\times 3$ skew-symmetric matrices such that for any $\boldsymbol \omega \triangleq \mathrm{vec}(\omega_1, \omega_2, \omega_3) \in \mathbb{R}^3$:
+\begin{equation}
+ \boldsymbol \omega^\wedge \triangleq 
+\begin{bmatrix}
+0 & -\omega_3 & \omega_2 \\
+\omega_3 & 0 & - \omega_1 \\
+-\omega_2 & \omega_1 & 0 \\
+\end{bmatrix}
+\end{equation}
+and $(\boldsymbol \omega^\wedge)^{\vee} = \boldsymbol \omega$. The Lie algebra of $\SE(3)$, denoted by $\mathfrak{se}(3)$, can be identified by $4\times 4$ matrices such that for any $\boldsymbol \omega, \mathbf{v} \in \mathbb{R}^3$ and $\boldsymbol \xi \triangleq \mathrm{vec}(\boldsymbol \omega, \mathbf{v}) \in \mathbb{R}^6$:
+\begin{equation}
+ \boldsymbol \xi^\wedge \triangleq 
+\begin{bmatrix}
+\boldsymbol \omega^\wedge & \mathbf{v} \\
+\mathbf{0}_3^\transpose & 1 \\
+\end{bmatrix}
+\end{equation}
+
+The exponential map $\exp:\mathfrak{se}(3) \to \SE(3)$ can be used to map a member of $\mathfrak{se}(3)$ around a neighborhood of zero to a member of $\SE(3)$ around a neighborhood of the identity. The logarithm map is the inverse, i.e., $\log:\SE(3) \to \mathfrak{se}(3)$, and $\exp(\log(\mathbf{T})) = \mathbf{T}$, $\mathbf{T} \in \SE(3)$. Now we can define the difference between a transformation $\mathbf{T} \in \SE(3)$ and its estimate with a small perturbation $\hat{\mathbf{T}} \in \SE(3)$ as~\cite{chirikjian2011stochastic,barfoot2014tro}:
+\begin{equation}
+ \boldsymbol \epsilon^{\wedge} = \log(\hat{\mathbf{T}} \mathbf{T}^{-1})
+\end{equation}
+where $\boldsymbol \epsilon^{\wedge} \in \mathfrak{se}(3)$. To define the norm and covariance of the error term, we exploit the fact that $\mathfrak{se}(3)$ is isomorphic to $\mathbb{R}^6$, i.e., $\boldsymbol \epsilon^{\wedge} \mapsto \boldsymbol \epsilon \in \mathbb{R}^6$ using the $\vee$ operator. Therefore, we can define the $6\times 6$ covariance matrix conveniently as $\boldsymbol \Sigma_{\boldsymbol \epsilon} = \Cov{\boldsymbol \epsilon}$.
+
+\subsection{Optimization on Matrix Lie Group}
+
+To Solve an optimization problem over a Lie group such as $\SE(3)$, we need more machinery than usual optimization over $\mathbb{R}^n$. The incremental term lives in the tangent space, and a retraction that maps it onto the Lie group is required~\cite{absil2009optimization}. For $\SE(3)$, the exponential map can serve as the retraction, and we can solve the optimization problem by iteratively lifting (logarithm map) the cost function to the tangent space, solving the reparameterized problem, and then mapping the updated solution back to the original space using the retraction. 
+
+\section{Representation and Reproducing Kernel Hilbert Space}
+Let $V$ be a vector space over the field of real numbers $\mathbb{R}$. An inner product on $V$ is a function \mbox{$\langle\cdot,\cdot\rangle: V\times V \to \mathbb{R}$} that has following properties:
+\begin{enumerate}
+	\item $\langle\cdot,\cdot\rangle$ is bilinear;
+	\item $\langle\cdot,\cdot\rangle$ is symmetric: For all $\mathbf{v}, \mathbf{w} \in V$,  $\langle\mathbf{v}, \mathbf{w}\rangle = \langle\mathbf{w}, \mathbf{v}\rangle$;
+	\item $\langle\cdot,\cdot\rangle$ is positive definite~\footnote{General inner products need not be positive definite.}: For all $\mathbf{v} \in V$, $\langle\mathbf{v}, \mathbf{v}\rangle\ \geq 0$ with equality iff $\mathbf{v} = \mathbf{0}$.
+\end{enumerate}
+The pair $(V, \langle\cdot,\cdot\rangle)$ is called an inner product space. The inner product induces a norm that measures the magnitude or length of a vector:
+\begin{equation}
+\label{eq:norm}
+	\lVert \mathbf{v} \rVert = \sqrt{\langle\mathbf{v}, \mathbf{v}\rangle}
+\end{equation}
+The norm in turn induces a metric that allows for calculating the distance between two vectors:
+\begin{equation}
+	d(\mathbf{v}, \mathbf{w}) = \lVert \mathbf{v} - \mathbf{w} \rVert = \sqrt{\langle\mathbf{v} - \mathbf{w}, \mathbf{v} - \mathbf{w}\rangle}
+\end{equation}
+Such a metric is homogeneous, $d(a \mathbf{v}, a \mathbf{w}) = |a| d(\mathbf{v}, \mathbf{w})$, and translational invariant, $d(\mathbf{v} + \mathbf{x}, \mathbf{w} + \mathbf{x}) = d(\mathbf{v}, \mathbf{w})$, by inheriting these properties from the induces norm in~\eqref{eq:norm}. The distance metric is positive definite, symmetric, and satisfies the triangle inequality.
+
+\begin{proposition}[Cauchy-Schwarz]
+Let $V$ be an inner product space. For all $\mathbf{v}$, $\mathbf{u} \in V$, we have
+\begin{equation}
+\label{eq:csinq}
+	|\langle\mathbf{v}, \mathbf{u}\rangle| \leq \lVert \mathbf{v} \rVert \cdot \lVert \mathbf{u} \rVert
+\end{equation}
+\end{proposition}
+
+Another interesting definition using the inner product is the angle between two vectors:
+\begin{equation}
+\label{eq:csinq}
+	\cos(\theta) = \frac{|\langle\mathbf{v}, \mathbf{u}\rangle|}{\lVert \mathbf{v} \rVert \cdot \lVert \mathbf{u} \rVert}
+\end{equation}
+where $0 \leq \theta \leq \frac{\pi}{2}$.
+
+A familiar example of inner product spaces is $\mathbb{R}^n$ with the inner product defined as the usual dot product. The dot product is a special case of an inner product that satisfies all the requirements. The induces norm and distance metric are the familiar Euclidean norm and distance, respectively.
+
+\begin{definition}[Isometry] Let $V$ and $W$ be vector spaces and $L: V \to W$ be a linear transformation. $L$ is an isometry with respect to some distance metric $d(\cdot, \cdot)$ if
+\begin{equation}
+	d(L\mathbf{u}, L\mathbf{v}) = d(\mathbf{u}, \mathbf{v})
+\end{equation}
+\end{definition}
+
+\begin{definition}[Cauchy Sequence]
+A Cauchy sequence is a sequence $\{x_i\}_{i=1}^{\infty}$ such that for any real number $\epsilon > 0$ there exists a natural number $\bar{n} \in \mathbb{N}$ such that for some distance metric $d(x_n, x_m) < \epsilon$ for all $n,m > \bar{n}$.
+\end{definition}
+
+\begin{definition}[Completeness]
+A metric space $(M,d)$ is complete if every Cauchy sequence in $M$ converges in $M$, i.e., to a limit that is in $M$.
+\end{definition}
+
+\begin{definition}[Dense Subset]
+Let $(M,d)$ be a metric space. $X \subset M$ is dense in $M$ iff for each $x\in M$ there exists a sequence of points $\{x_i\}_{i=1}^{\infty}$ in $X$ such that $x_n \to x$.
+\end{definition}
+
+Intuitively, completeness can be understood as there is no gap or hole in the space. Such a metric space contains all its limit points. Note that completeness is with respect to the metric $d$ and not the topology of the space. A dense subset implies that the closure of the subset $X$ equals $M$. Now, we have developed enough foundation to give a definition for a Hilbert space.
+
+\begin{definition}[Hilbert Space]
+A Hilbert space is a complete inner product space; that is any Cauchy sequence is convergent using the metric induced by the inner product.
+\end{definition}
+
+Sometimes the inner product spaces that are not complete are called pre-Hilbert spaces. We can always add the limit points to the space to get a completion of the space which will become a Hilbert space. The reviewed definitions and properties are also valid for a vector space of functions. Let $(\Hcal, \langle\cdot,\cdot\rangle_{\Hcal})$ be a real Hilbert space of functions with the inner product between any two square-integrable functions $f, g \in \Hcal$ (or \mbox{$f, g \in L^2(\mathbb{R}, \mu)$}) defined as:
+\begin{equation}
+\label{eq:ipl2}
+	\langle f, g\rangle_{\Hcal} \triangleq \int f(\mathbf{x}) g(\mathbf{x}) \mathrm{d}\mu(\mathbf{x})
+\end{equation}
+where $\mu$ is the Lebesgue measure on $\mathbb{R}$. Similarly, the induced norm by the inner product is \mbox{$\lVert f \rVert_{\Hcal} = \sqrt{\langle f, f\rangle_{\Hcal}}$}. The Hilbert space of functions can be thought of as an infinite-dimensional counterpart of the finite-dimensional vector spaces discussed earlier.
+
+\begin{remark}
+We note that one can define the inner product in~\eqref{eq:ipl2} on $L^2(\mathbb{R}, \mu)$ to get a Hilbert space of functions. Roughly speaking, this is a space of functions that behave nicely.
+\end{remark}
+
+\begin{definition}[Kernel]
+Let $\mathbf{x}, \mathbf{x}' \in \mathcal{X}$ be a pair of inputs for a function \mbox{$k:\mathcal{X} \times \mathcal{X} \to \mathbb{R}$} known as kernel. A kernel is symmetric if $k(\mathbf{x}, \mathbf{x}')=k(\mathbf{x}',\mathbf{x})$, and is positive definite if:
+\begin{equation}
+	\nonumber \int k(\mathbf{x}, \mathbf{x}') f(\mathbf{x}) f(\mathbf{x}') \mathrm{d}\mu(\mathbf{x}) \mathrm{d}\mu(\mathbf{x}') > 0 \quad \forall f \in L^2(\Xcal,\mu)
+\end{equation}
+\end{definition}
+
+\begin{definition}[Gram Matrix]
+Given a set of input points $\{\mathbf{x}_i\}_{i=1}^{n}$ and a kernel $k$, an $n\times n$ matrix constructed using $\mathbf{K}_{ij} \triangleq k(\mathbf{x}_i, \mathbf{x}_j)$ is called the Gram matrix of k with respect to $\{\mathbf{x}_i\}_{i=1}^{n}$.
+\end{definition}
+
+
+
+\begin{definition}[Reproducing Kernel Hilbert Space~\citep{berlinet2004reproducing}]
+Let $\Hcal$ be a real-valued Hilbert space on a non-empty set $\Xcal$. A function $k:\Xcal \times \Xcal \to \mathbb{R}$ is a reproducing kernel of the Hilbert space $\Hcal$ iff:
+\begin{enumerate}
+	\item $\forall \mathbf{x} \in \Xcal, \quad k(\cdot, \mathbf{x}) \in \Hcal$ 
+	\item $\forall \mathbf{x} \in \Xcal, \quad \forall f \in \Hcal \quad \langle f, k(\cdot, \mathbf{x}) \rangle = f(\mathbf{x})$
+\end{enumerate}
+The Hilbert space $\Hcal$ ($\Hcal_k$) which possesses a reproducing kernel $k$ is called  a Reproducing Kernel Hilbert Space (RKHS) or a proper Hilbert space.
+\end{definition}
+
+The second property is called \emph{the reproducing property}; that is using the inner product of $f$ with $k(\cdot,\mathbf{x})$, the value of function $f$ is reproduced at point $\mathbf{x}$. Also, using both conditions we have:
+\begin{equation}
+	\nonumber \forall \mathbf{x}, \mathbf{z} \in \Xcal, \quad k(\mathbf{x},\mathbf{z}) = \langle k(\cdot, \mathbf{x}), k(\cdot, \mathbf{z}) \rangle
+\end{equation}
+
+\begin{lemma}
+Any reproducing kernel is a positive definite function~\citep{berlinet2004reproducing}.
+\end{lemma}
+
+Finding a reproducing kernel of an RKHS might seem difficult, but fortunately, there is a one-to-one relation between a reproducing kernel and its associated RKHS, and such a reproducing kernel is unique. Therefore, our problem reduces to finding an appropriate kernel.
+
+\begin{theorem}[Moore-Aronszajn Theorem~\citep{berlinet2004reproducing}]
+\label{th:ma}
+Let $k$ be a positive definite function on $\Xcal \times \Xcal$. There exists only one Hilbert space $\Hcal$ of functions on $\Xcal$ with $k$ as reproducing kernel. The subspace $\Hcal_0$ of $\Hcal$ spanned by the function $k(\cdot, \mathbf{x}), \mathbf{x} \in \Xcal$ is dense in $\Hcal$ and $\Hcal$ is the set of functions on $\Xcal$ which are point-wise limits of Cauchy sequence in $\Hcal_0$ with the inner product 
+\begin{equation}
+\label{eq:iprkhs}
+	\langle f, g \rangle_{\Hcal_0} = \sum_{i=1}^n \sum_{j=1}^m \alpha_i \beta_j k(\mathbf{z}_j, \mathbf{x}_i)
+\end{equation}
+where $f =  \sum_{i=1}^n \alpha_i k(\cdot, \mathbf{x}_i)$ and $g =  \sum_{j=1}^m \beta_j k(\cdot, \mathbf{z}_j)$.
+\end{theorem}
+
+The important property while working in an RKHS is that the convergence in norm imply point-wise convergence which is desired; the converse need not be true. In other words, if two functions in an RKHS are close in the norm sense, they are also close point-wise. We will rely on this property to solve the problem discussed in this paper. In Theorem~\ref{th:ma}, $f$ and $g$ are defined in a particular form. The following theorem known as the representer theorem ensures that the solution of minimizing the regularized risk functional admits such as representation.
+
+\begin{theorem}[Nonparametric Representer Theorem~\citep{scholkopf2001generalized}]
+Let $\Xcal$ be a nonempty set and $\Hcal_k$ be an RKHS with reproducing kernel $k$ on $\Xcal \times \Xcal$. Suppose we are given a training sample $(\mathbf{x}_1,y_1),\dots,(\mathbf{x}_m,y_m) \in \Xcal \times \mathbb{R}$, a strictly monotonically increasing real-valued function $h$ on $[0, \infty)$, an arbitrary cost function $c:(\Xcal \times \mathbb{R}^2)^m \to \mathbb{R} \cup \{\infty\}$, and a class of functions~\footnote{$\mathbb{R}^{\Xcal}$ is the space of functions mapping $\Xcal$ to $\mathbb{R}$.}
+\begin{align}
+	\nonumber &\Fcal = \\
+    &\{f \in \mathbb{R}^{\Xcal} | f(\cdot) = \sum_{i=1}^\infty \beta_i k(\cdot, \mathbf{z}_i), \beta_i \in \mathbb{R}, \mathbf{z}_i \in \Xcal, \lVert f \rVert_{\Hcal_k} < \infty \}
+\end{align}
+Then any $f \in \Fcal$ minimizing the regularized risk functional 
+\begin{equation}
+	c((\mathbf{x}_1,y_1,f(x_1),\dots,(\mathbf{x}_m,y_m,,f(\mathbf{x}_m))) + h(\lVert f \rVert_{\Hcal_k})
+\end{equation}
+admits a representation of the form
+\begin{equation}
+	f(\cdot) =  \sum_{i=1}^n \alpha_i k(\cdot, \mathbf{x}_i).
+\end{equation}
+\end{theorem}
+
+
+
+
+\section{Problem Statement and Formulation}
+\label{sec:statement}
+
+
+\begin{definition}[Target Function]
+ Let $\Xcal_t \subset \mathbb{R}^3$ be a point cloud which is considered in the fixed reference frame. The function \mbox{$f_t:\Xcal_t \to \mathbb{R}$} is called the target function.
+\end{definition}
+
+\begin{definition}[Source Function]
+ Let $\Xcal_s \subset \mathbb{R}^3$ be a point cloud which $\mathbf{T} \in \mathrm{SE}(3)$ acts on it. The function \mbox{$f_s:\Xcal_s \to \mathbb{R}$} is called the source function.
+\end{definition}
+
+The Squared Exponential (SE) kernel has the form
+\begin{equation}
+\label{eq:SEcov}
+k_{SE}(\mathbf{x},\mathbf{x}') = \exp(-\lVert \mathbf{x} - \mathbf{x}' \rVert^2_{\mathbf{L}})
+\end{equation}
+where $\mathbf{l} = \mathrm{vec}(l_1^2, l_2^2, l_3^2)$, and $\mathbf{L} \triangleq \mathrm{diag}(\mathbf{l})$ is the matrix of \emph{characteristic length-scale}. This is the most common kernel used in regression techniques using kernel methods~\citep{scholkopf2002learning} such as Gaussian processes~\citep{rasmussen2006gaussian} and Relevance Vector Machine (RVM)~\citep{tipping2001sparse} and is infinitely differentiable. The distance metric of $k_{SE}$ is the usual Euclidean norm, thus, it is an isometry with respect to any $\mathbf{T} \in \SE(3)$.
+
+\begin{corollary}[DIFFERENTIAL GEOMETRY, Theodore Shifrin]
+ If two surfaces are locally isometric, their Gaussian curvatures at corresponding points are equal.
+\end{corollary}
+
+
+\begin{align}
+	\nonumber \lVert f_t - f_s \rVert^2_{\Hcal_k} = &\langle f_t - f_s, f_t - f_s \rangle = \\
+    &\langle f_t, f_t \rangle + \langle f_s, f_s \rangle -2 \langle f_t, f_s \rangle
+\end{align}
+
+$\langle f_t, f_s \rangle = \sum_{i=1}^n \sum_{j=1}^m \alpha_i \beta_j k_{SE}(\mathbf{z}_j, \mathbf{x}_i) = \boldsymbol \alpha^\transpose \mathbf{K} \boldsymbol \beta$ where $\mathbf{K} = \mathbf{K}(\mathbf{Z}, \mathbf{X}_t; \mathbf{T})$ is the corresponding Gram matrix and \mbox{$\mathbf{Z} = \mathbf{T} \mathbf{X}_s$}.
+
+\begin{problem}
+\label{prob:min}
+\begin{equation}
+	\nonumber \minimize_{\mathbf{T} \in \SE(3)} \ -\boldsymbol \alpha^\transpose \mathbf{K} \boldsymbol \beta
+\end{equation}
+\end{problem}
+
+\begin{theorem}
+	The minimizer of Problem~\ref{prob:min}, minimizes the angle between $f_t$ and $f_s$.
+\end{theorem}
+\begin{proof}
+	Suppose $\mathbf{T}^*$ is the minimizer of Problem~\ref{prob:min}. Then $\langle f_t, f_s^* \rangle \geq \langle f_t, f_s \rangle$ and $\lVert f_s^* \rVert_{\Hcal_k} \leq \lVert f_s \rVert_{\Hcal_k}$. Using Cauchy-Schwarz inequality:
+    \begin{equation}
+    	\nonumber 0 \leq \lvert \langle f_t, f_s \rangle \rvert \leq \lvert \langle f_t, f_s^* \rangle \rvert \leq \lVert f_t \rVert_{\Hcal_k} \lVert f_s^* \rVert_{\Hcal_k} \leq \lVert f_t \rVert_{\Hcal_k} \lVert f_s \rVert_{\Hcal_k}
+    \end{equation}
+    dividing by $\lVert f_t \rVert_{\Hcal_k} \lVert f_s \rVert_{\Hcal_k}$ and replacing $\lVert f_s \rVert_{\Hcal_k}$ in the denominator by $\lVert f_s^* \rVert_{\Hcal_k}$:
+    \begin{equation}
+    	\nonumber 0 \leq \cos(\theta) \leq \frac{\lvert \langle f_t, f_s^* \rangle \rvert}{\lVert f_t \rVert_{\Hcal_k} \lVert f_s^* \rVert_{\Hcal_k}} \leq \frac{\lVert f_s^*\rVert_{\Hcal_k}}{\lVert f_s^* \rVert_{\Hcal_k}} \leq 1
+    \end{equation} 
+    \begin{equation}
+    	\nonumber 0 \leq \cos(\theta) \leq \cos(\theta^*) \leq 1
+    \end{equation}
+    \begin{equation}
+    	\nonumber 0 \leq \theta^* \leq \theta \leq \frac{\pi}{2}
+    \end{equation}
+where $\cos(\theta) = \lvert \langle f_t, f_s \rangle \rvert / (\lVert f_t \rVert_{\Hcal_k} \lVert f_s \rVert_{\Hcal_k})$.
+\end{proof}
+
+
+\section{Algorithmic Implementation}
+\label{sec:alg}
+
+% \section{Related Work and Resources}
+
+\section{Conclusion and Future Work} 
+\label{sec:conclusion}
+
+
+
+
+% \section*{Acknowledgments}
+
+%% Use plainnat to work nicely with natbib. 
+\small
+\bibliographystyle{plainnat}
+\bibliography{references}
+
+\end{document}
+
+

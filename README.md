@@ -1,36 +1,24 @@
-# CVO/Adaptive CVO
-* <a href="https://arxiv.org/pdf/1904.02266.pdf" target="_blank">Continuous Direct Sparse Visual Odometry from RGB-D Images.</a>
-* <a href="https://arxiv.org/pdf/1910.00713.pdf" target="_blank">Adaptive Continous Visual Odometry from RGB-D Images.</a>
+# SIFT Flow CVO
 
-## MATLAB Examples for CVO
-For a toy example of registration using Kinect data in MATLAB run `matlab/run_toy_example.m`
+## Summary
+This repository contains source codes for Contineous Visual Odometry (CVO) ruuning with SIFT-flow as adiitional labels.
 
 ## Dependency
 * ubuntu 16.04
-* C++ 11 or higher
+* PointCloudLibrary 1.4
 * Eigen3
-* OpenCV 3.0.0
-* PCL 1.4 (For saving pcd files)
-* Intel C++ compiler (For better speed performance)
-* Intel TBB
-* Boost (for timing only)
-
-## Environment Setting
-* Add the following two source command to your ```.bashrc```, detailed instructions can be found [here](https://software.intel.com/en-us/articles/setting-up-the-build-environment-for-using-intel-c-or-fortran-compilers):
-
-```
-source opt/intel/mkl/bin/mklvars.sh intel64
-source opt/intel/compilers_and_libraries/linux/bin/compilervars.sh intel64
-``` 
 
 ## Data
 * Download TUM RGBD dataset from [here](https://vision.in.tum.de/data/datasets/rgbd-dataset/download).
-* Generate the association files using ```data/rgbd_dataset/rgbd_benchmark_tools/assoc.sh```.
 
-## cpp Code
+## Generate sift flow
+* Reference: [SIFT Flow: Dense Correspondence across Scenes and its Applications. Liu et. al. IEEE transactions on pattern analysis and machine intelligence 33, no. 5 (2010): 978-994.](https://people.csail.mit.edu/celiu/SIFTflow/)
+* Revised code is my repository [chienerh/SIFT-Flow](https://github.com/chienerh/SIFT-Flow) which fixed minor error and generate sift flow bin file for CVO to read in.
+
+## cpp
 To compile the cpp code, type the command below:
 ``` 
-cd cpp/rkhs_se3_registration
+cd dev/cpp/rkhs_se3_registration
 mkdir build
 cd build
 ```
@@ -39,7 +27,7 @@ If this is your first time compiling using intel compiler, set your cmake varaib
 cmake .. -DCMAKE_C_COMPILER=icc -DCMAKE_CXX_COMPILER=icpc
 make
 ```
-Next time, you only need to do the following:
+After that, you only need to do the following:
 ```
 cmake ..
 make
@@ -48,36 +36,38 @@ Then executable files ```cvo``` and ```adaptive_cvo``` will be generated in buil
 
 To run cvo code: 
 ```
-./cvo $path_to_data $tum_sequence_number(1 for fr1, 2 for fr2, 3 for fr3)
+./cvo path_to_data tum_sequence_number(1 for fr1, 2 for fr2, 3 for fr3)
 ```
-A txt file containing the trajectory, ```cvo_poses_qt.txt```, will be generated in your data folder.
+A txt file of the trajectory ```cvo_poses_qt.txt``` will be generated in your data folder.
 
 To run adaptive cvo code:
 ```
-./adaptive_cvo $path_to_data $tum_sequence_number(1 for fr1, 2 for fr2, 3 for fr3)
+./adaptive_cvo path_to_data tum_sequence_number(1 for fr1, 2 for fr2, 3 for fr3)
 ```
-A txt file containing the trajectory, ```acvo_poses_qt.txt```, will be generated in your data folder.
+A txt file of the trajectory ```acvo_poses_qt.txt``` will be generated in your data folder.
 
-An example of how to run the code is in the script folder.
+## TUM Evaluation Tools
+* [TUM evaluation tools](https://vision.in.tum.de/data/datasets/rgbd-dataset/tools) were modifed into python3 in our repository.
+* Evaluation tools are in ```data/rgbd_dataset/rgbd_benchmark_tools/```. 
 
-## Citations
-* Maani Ghaffari, William Clark, Anthony Bloch, Ryan M. Eustice, and Jessy W. Grizzle. "Continuous Direct Sparse Visual Odometry from RGB-D Images," in Proceedings of Robotics: Science and Systems, Freiburg, Germany, June 2019. https://arxiv.org/abs/1904.02266
-```
-@INPROCEEDINGS{MGhaffari-RSS-19, 
-    AUTHOR    = {Maani Ghaffari AND William Clark AND Anthony Bloch AND Ryan M. Eustice AND Jessy W. Grizzle}, 
-    TITLE     = {Continuous Direct Sparse Visual Odometry from RGB-D Images}, 
-    BOOKTITLE = {Proceedings of Robotics: Science and Systems}, 
-    YEAR      = {2019}, 
-    ADDRESS   = {Freiburg, Germany}, 
-    MONTH     = {June} 
-} 
-```
-* Tzu-Yuan Lin, William Clark, Ryan M. Eustice, Jessy W. Grizzle, Anthony Bloch, and Maani Ghaffari. "Adaptive Continuous Visual Odometry from RGB-D Images." arXiv preprint arXiv:1910.00713, 2019. https://arxiv.org/abs/1910.00713
-```
-@article{lin2019adaptive,
-  title={Adaptive Continuous Visual Odometry from RGB-D Images},
-  author={Lin, Tzu-Yuan and Clark, William and Eustice, Ryan M and Grizzle, Jessy W and Bloch, Anthony and Ghaffari, Maani},
-  journal={arXiv preprint arXiv:1910.00713},
-  year={2019}
-}
-```
+* Then  navigate to the tools folder: 
+    ```cd data/rgbd_dataset/rgbd_benchmark_toos/```
+    
+* You can run the evaluation codes by parsing arguments into it, for more informations:
+    ```python3 evaluate_ate.py -h```
+    ```python3 evaluate_rpe.py -h```
+
+* Examples:
+    * ATE: 
+    ```python3 evaluate_ate.py ../freiburg1_desk/groundtruth.txt ../freiburg1_desk/cvo_poses_qt.txt --verbose --plot ../freiburg1_desk/figure/ate.png --title 'fr1_desk'```
+    * RPE: 
+    ```python3 evaluate_rpe.py ../freiburg1_desk/groundtruth.txt ../freiburg1_desk/cvo_poses_qt.txt --fixed_delta --verbose --plot ../freiburg1_desk/figure/rpe.png --title 'fr1_desk'```
+
+  
+## Results
+
+
+
+
+
+

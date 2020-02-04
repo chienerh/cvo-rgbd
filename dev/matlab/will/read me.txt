@@ -1,0 +1,8 @@
+The script ``StitchPointCloudsExample.m'' is the program written by Matlab to construct the living room.
+The script ``StitchPointCloudsExample_gradient.m'' mimics the first program, but with our algorithm instead.
+The script ``test_taylor_series.m'' constructs the comparison plot in Figure 1.
+
+The other functions are called by the three scripts:
+``cloud_dot.m'' computes the dot product of two clouds as in equation (2.2)
+``transform_identity_NR_4_vectorized.m'' (7.1) and the maximum to (6.4)
+``pc_gradient_descent.m'' performs the gradient descent for two fixed point clouds.
